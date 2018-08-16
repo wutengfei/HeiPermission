@@ -51,6 +51,7 @@ public class MainActivity extends PermissionActivity implements View.OnClickList
                     @Override
                     public void superPermission() {
                         Toast(mBtnCam,"相机可用");
+
                     }
                 },R.string.camera, Manifest.permission.CAMERA);
 
